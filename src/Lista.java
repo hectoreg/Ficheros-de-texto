@@ -27,8 +27,8 @@ public class Lista {
 
                 String[] contenido = line.split(cvsSplitBy);
                 int edad = Integer.parseInt(contenido[3]);
-                int numero = Integer.parseInt(contenido[3]);
-                int cp = Integer.parseInt(contenido[3]);
+                int numero = Integer.parseInt(contenido[5]);
+                int cp = Integer.parseInt(contenido[6]);
 
                 Persona p1 = new Persona(contenido[0],contenido[1],contenido[2],edad,contenido[4],numero,cp,contenido[7]);
                 p.add(p1);
